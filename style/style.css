@@ -101,3 +101,16 @@ main {
 section p {
     color:white;
 }
+table{
+    width: 100%;
+    border:1px solid Oblack ; 
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 20px;
+    padding: 2%;
+
+}
+th, td, tr{ 
+        border: 1px solid Ogreen;
+text-align: left;
+}

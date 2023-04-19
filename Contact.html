@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+ <!--github-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="">
+        <title>Ireland Football</title>
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+        <link rel="icon" href="images/favicon-16x16.png" type=""image/gif" sizes="16x16">
+    </head>
+    <body>
+        <header>  
+               
+            <img class="logo" src="images/CrestLogo.jpeg" alt="Crest">
+            <img class="logo" src="images/Castore.png" alt="Castore">
+            <img class="logo" src="images/sky.jpeg" alt="sky">
+            
+            <h1>Ireland Football</h1>
+            <nav>
+                <ul>
+                    <li><a href="men.html">Senior Mens</a></li>
+                    <li><a href="index.html">Senior Women</a></li>
+                    <li><a href="youth.html">Youth teams</a></li>
+                    <li id="current"><a href="contact.html">Sign Up</a></li>
+                    
+                </ul>
+            </nav>
+           
+        </main>
+       
+        <style>
+        body {
+            
+            
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 40px;
+            background-image:url(aviva.jpeg);
+        }
+        main {
+            
+            padding: 20px;
+            border: rgb(9,90,9) solid 1px;
+            background: rgb(9,90,9);
+            min-height: 500px;
+        }
+        header p {
+            
+            text-align: center;
+            
+        }
+        .required {
+            font-weight: bold;
+            color: red;
+        }
+        label {
+            float: left;
+            width: 112px;
+            padding-right: 10px;
+            text-align: right;
+        }
+        input {
+            margin-left: 1em;
+            margin-bottom: .5em;
+            width: 300px;
+        }
+
+        input[type="checkbox"] { width: 15px; }
+        input[type="radio"] { width: 10px; }
+
+        #button, #reset {
+            margin-top: .5em;
+            width: 8em;
+            background-color: rgb(255, 255, 255);
+            border: 2px solid rgb(9,90,9);
+        }
+        #button:hover, #reset:hover{
+            background-color:rgb(9,90,9);
+        }
+        section form{
+            background-color: rgb(255, 132, 0);
+            
+            
+        }
+        h3{
+            color:white;
+        }
+        </style>
+
+        <main>
+            <section>
+                <h3>Sign up below!</h3> 
+                <form action="http:/foo.com" method="post">
+                    <label for="first_name">First name:<span class="required">*</span></label>
+                    <input type="text" name="first_name" id="first_name" autofocus required> <br>
+                    <label for="last_name">Last name:<span class="required">*</span></label>
+                    <input type="text" name="last_name" id="last_name" required> <br>
+                    <label for="email">Email:<span class="required">*</span></label>
+                    <input type="email" name="email" id="email" required placeholder="faireland@example.com"> <br>
+                    <label for="title">Title:</label>
+                    <input type="radio" name="title" value="mr"> Mr
+                    <input type="radio" name="title" value="ms"> Ms
+                    <input type="radio" name="title" value="Mrs">Mrs
+                    <input type="radio" name="title" value="none" checked> none <br>
+
+                    <label for="internet">Sign up for:</label>
+                    <fieldset>
+                        <input type="checkbox" name="emails" value="emails" checked> Emails <br>
+                        <input type="checkbox" name="Sponsors" value="Sponsors"> Emails from our sponsors<br>
+                        <input type="checkbox" name="friend" value="friend"> Emails with special offers <br>
+                        
+                    </fieldset> <br>
+
+                    
+                     
+                    <input type="submit" name="submit" id="button" value="Submit">
+                    <input type="reset" name="reset" id="reset">
+                </form>
+
+                <p style="margin-left:10px"> <span class="required">*</span> <em> indicates a required field</em> </p>
+                <h2>Visit us in Dublin!</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.448248389677!2d-6.231031823358282!3d53.33523177228607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670ec268eb8af9%3A0xe37e998e72032668!2sAviva%20Stadium!5e0!3m2!1sen!2sie!4v1681795561655!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </main>    
+
+    </body>
+    <footer>
+        <center><p>Football Association of Ireland&copy; 2023</p></center>
+    </footer>
+
+</html>

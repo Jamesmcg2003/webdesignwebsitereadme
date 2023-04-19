@@ -56,7 +56,9 @@ footer p{
 }
 
 body{
-    font-family: fantasy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5%;
+    background-color: rgb(9, 90, 9);
 }
 #current {
     background-color: rgb(9, 90, 9) ;
@@ -103,14 +105,15 @@ section p {
 }
 table{
     width: 100%;
-    border:1px solid Oblack ; 
+    border:1px solid rgb(255, 132, 0); 
     border-collapse: collapse;
     font-size: 20px;
-    margin: 20px;
+    
     padding: 2%;
 
 }
 th, td, tr{ 
-        border: 1px solid Ogreen;
-text-align: left;
+    color: white;
+    border: 3px solid rgb(255, 132, 0);
+    text-align: left;
 }

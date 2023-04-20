@@ -102,6 +102,7 @@ main {
 }
 section p {
     color:white;
+    text-align: justify;
 }
 table{
     width: 100%;
@@ -116,4 +117,12 @@ th, td, tr{
     color: white;
     border: 3px solid rgb(255, 132, 0);
     text-align: left;
+}
+iframe{
+    display: block;
+    margin:auto;
+
+}
+.column{
+    column-count: 2;
 }
